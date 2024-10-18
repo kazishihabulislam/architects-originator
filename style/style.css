@@ -1,0 +1,93 @@
+/* ?Google Work Sans Fonts are Here */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-originator {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Global styles. These styles apply to the entire website  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.display-flex {
+  display: flex;
+}
+.text-primary-color {
+  color: rgb(66, 66, 66);
+}
+.text-secondary-color {
+  color: rgb(19, 19, 19);
+}
+
+.btn-primary {
+  background: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+}
+/* Header styles. Styling for the logo, navigation menu, and overall header section!*/
+#main-header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.brand-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 53px;
+}
+#navbar {
+  max-width: 1440px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-item a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Banner section This is the large, attention-grabbing section at the top */
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-content {
+  max-width: 860px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.banner-heading {
+  color: rgb(19, 19, 19);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 75px;
+}
+.banner-description {
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 30px 0;
+}
+.banner-img-container img {
+  width: 100%;
+}
