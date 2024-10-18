@@ -44,7 +44,7 @@
   font-weight: 700;
   line-height: 53px;
 }
-#navbar {
+.navbar {
   max-width: 1440px;
   justify-content: space-between;
   align-items: center;
@@ -90,4 +90,22 @@
 }
 .banner-img-container img {
   width: 100%;
+}
+/* Media query for mobile devices (screen width below 576px) */
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-links{
+        flex-direction: column;
+    }
+    .navbar{
+        padding: 20px 0;
+    }
+    .banner-content{
+        margin-bottom: 20px;
+    }
+    .banner-description{
+        font-size: 0.9rem;
+        padding: 10px 25px;
+    }
+    
 }
